@@ -1,0 +1,64 @@
+.UPJFE-SelectionContainer { 
+   width : 100%; 
+   position : static; 
+   display : table; 
+ } 
+/*### Shadow Styles ###*/
+.UPJFE-Photo-Shadow {
+    background: url("images/shadow.png") no-repeat scroll right bottom transparent;
+    float: left;
+    margin: 1px 1px 1px 1px;
+    padding: 4;
+}
+.UPJFE-Photo-Shadow img, .UPJFE-Photo-Shadow a img {
+    background-color: #8e0f76;
+    border: 1px solid #8e0f76;
+    display: block;
+    margin: -5px 5px 5px -0px;
+    padding: 2px;
+    position: relative;
+}
+.UPJFE-Photo-Boxed {
+    float: left;
+    margin: 0px;
+}
+.UPJFE-Photo-Boxed img {
+    background-color: #8e0f76;
+    border: 1px solid #8e0f76;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.UPJFE-Credits-layer { 
+   background-color : transparent; 
+   height : 20px; 
+   padding : 0px 0px 0px 0px; 
+   display : block; 
+   text-align : left; 
+   vertical-align : middle; 
+ } 
+.UPJFE-Credits-layer a, .UPJFE-Credits-layer a:hover, .UPJFE-Credits-layer a:visited, .UPJFE-Credits-layer a:active { 
+   background-color : transparent; 
+   cursor : pointer; 
+ } 
+.UPJFE-Download-layer { 
+   background-color : black; 
+   height : 30px; 
+   padding-top : 10px; 
+   display : block; 
+   text-align : center; 
+   vertical-align : middle; 
+ } 
+.UPJFE-Download-layer img, .UPJFE-Credits-layer img { 
+   cursor : pointer; 
+ } 
+.UPJFE-Download-layer a, .UPJFE-Download-layer a:hover, .UPJFE-Download-layer a:visited, .UPJFE-Download-layer a:active { 
+   color : white; 
+   background-color : transparent; 
+   font-family : 'Century Gothic', sans-serif; 
+   font-size : 12px; 
+   font-weight : bold; 
+   text-decoration : none; 
+   font-style : italic; 
+   cursor : pointer; 
+ } 
